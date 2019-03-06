@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const app = express();
 app.use(cors());
 // Mongoose conection
-mongoose.connect('mongodb://localhost:27017/Find-Eat', (err) => {
+mongoose.connect('mongodb://localhost:27017/MERN', (err) => {
   if (err) throw err;
   console.log('Successfully conected');
 });

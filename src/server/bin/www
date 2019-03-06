@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-const debug = require('debug')('find-eat:server');
+const debug = require('debug')('mern:server');
 const http = require('http');
 const app = require('../app');
 
